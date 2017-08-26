@@ -80,7 +80,7 @@ $db['default'] = array(
 	'username' => $_ENV['DBUSER'],
 	'password' => $_ENV['DBPASS'],
 	'database' => $_ENV['DBNAME'],
-	'dbdriver' => 'mysqli', //'mysqli',
+	'dbdriver' => 'mysql', //'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
